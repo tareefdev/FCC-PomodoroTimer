@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loading-bar.css"/>
+</head>
+<body>
+
+<div class="container">
+        <h1 id="header">FCC Pomodoro</h1>
+        <h2 id="hint">Have a fun!</h2>
+        <h2 id="timer"></h2>
+        
+        <audio id="audio" src="https://tareefdev.com/cdn/loud-bell.ogg" autostart="false" ></audio>
+        
+        <div id="shape" data-preset="bubble" data-pattern-size="50" style="width: 250px; height: 250px;"></div>
+
+        <div id="pomodoro">
+            <h3>session length</h3>
+            <div id="pomodoro-time">
+                <button type="button" id="pomodoro-minus">-</button><span id="long">25</span><button type="button" id="pomodoro-plus">+</button><span id="two-points">:</span><span id="sec">60</span>
+            </div>
+        </div>
+
+        <div id="control">
+            <button id="resume"><i class="fa fa-step-forward" aria-hidden="true" ></i></button>
+            <button id="pause"><i class="fa fa-pause" aria-hidden="true" ></i></button>
+            <button id="start"><i class="fa fa-play" ></i></button>
+        </div>
+
+        <div id="break">
+            <h3>break length</h3>
+            <div id="break-time">
+                <button type="button" id="break-minus">-</button><span id="break-long">5</span><button type="button" id="break-plus">+</button><span id="break-two-points">:</span><span id="break-sec">60</span>
+            </div>
+        </div>
+        <div id="clear"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/loading-bar.js"></script>
+        <script type="text/javascript" src="js/pomodoro.js"></script>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/loading-bar.js"></script>
+        <script type="text/javascript" src="js/pomodoro.js"></script>
+    </div>
+    
+</body>
+</html>

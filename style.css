@@ -1,0 +1,66 @@
+body {
+  background-color: #4f4f55;
+}
+.container {
+  text-align: center;
+  margin: 30px auto;
+  width: 500px;
+  padding: 20px; 
+  background-color: #4f4f55;
+  color: #d8dae8;
+}
+
+button {
+  background-color: #4f4f55;
+  color: #d8dae8;
+  border: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 125%;
+}
+
+#shape {
+  margin: 10px auto;
+  width: 250px; height: 250px; background: #dddddd; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+
+.ldBar-label, #timer, #sec, #two-points, #break-two-points, #break-sec {
+  display: none;
+}
+
+p {
+  display: inline;
+  margin-left: 20px;
+}
+
+#long, #break-long {
+  font-size: 400%;
+}
+
+#sec, #break-sec {
+  font-size: 200%;
+}
+
+#long, #sec, #break-long, #break-sec {
+  font-family: monospace;
+}
+
+#pomodoro{
+  float: right;
+  width: 150px;
+}
+
+#break {
+  float: left;
+  width: 150px;
+}
+
+#control {
+  margin-top: 60px;
+  display: inline-block;
+}
+#clear {
+  clear: both;
+}
